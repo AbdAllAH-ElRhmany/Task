@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  margin-top: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+
+.header {
+  height: 72px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  position: fixed;
+  top: 0;
+  left: 0;
+  line-height: 72px;
+  width: 100%;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.header .container div {
+  display: flex;
+}
+.header .container a {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.header .container .logo p {
+  margin-right: 15px;
+}
+.header .container nav {
+  display: flex;
+}
+.header .container nav ul li {
+  display: inline-block;
+}
+
+.home .sec_header {
+  display: flex;
+  justify-content: space-between;
+}
+.home .sec_header button {
+  border-color: rgba(223, 225, 229, 0);
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.home .sec_header h2 {
+  font-size: 36px;
+}
+.home .users_table {
+  border-collapse: collapse;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.home .users_table td {
+  padding: 15px 50px;
+}
+.home .users_table thead th {
+  background-color: #54585d;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px solid #54585d;
+  padding: 15px;
+}
+.home .users_table tbody td {
+  color: #636363;
+  border: 1px solid #dddfe1;
+}
+.home .users_table button {
+  border-color: rgba(223, 225, 229, 0);
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+  margin: 5px 15px;
+  padding: 8px;
+}
